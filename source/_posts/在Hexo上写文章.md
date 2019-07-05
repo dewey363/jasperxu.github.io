@@ -121,11 +121,11 @@ tags:
 
 ## 3. 发布
 
-生成后自动提交到`gh-pages` 。命令如下：
+生成后自动提交到`master` 。命令如下：
 
 ```bash
 hexo c	# 清理文件 clear
 hexo g -d	# 生成静态文件 generate 然后部署 deploy
 ```
 
-注：该发布仅仅对`gh-pages`分支有效，写作分支需自行手动管理。
+注：写文章使用`write`分支，该分支需手动提交。
